@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API testing Suite">
+<parameter name="email" value="wilson@hotmail.com"></parameter>
+	<test thread-count="1" name="Tests APIS">
+
+		<classes>
+			<class name="com.globant.api.testing.wil.angel.test.TestAll"></class>
+
+		</classes>
+	</test>
+</suite>
